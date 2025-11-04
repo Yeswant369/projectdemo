@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Universal quick Glimpser!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="main-container">
+    <h1>Quick Insights!</h1>
+    <form id="summaryForm">
+      <input id="topic" type="text" placeholder="Enter book, movie, phone, etc." required>
+      <select id="type">
+        <option value="book">Book</option>
+        <option value="movie">Movie</option>
+        <option value="phone">Phone</option>
+        <option value="other">Other</option>
+      </select>
+      <button type="submit">Analyze</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
